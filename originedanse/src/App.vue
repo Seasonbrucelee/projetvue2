@@ -1,18 +1,28 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+   <Navbar />
+   <Jumbotron />
   </div>
-  <router-view/>
 </template>
+<script>
+import Navbar from "./components/Navbar.vue";
+import Jumbotron from "./components/Jumbotron.vue";
 
+export default {
+  name: "App",
+  components: {
+    Navbar,
+    Jumbotron,
+  }
+};
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color:  #031472;
+  background-color:  #031472;
 }
 
 #nav {
