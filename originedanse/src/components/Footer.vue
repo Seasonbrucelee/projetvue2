@@ -5,8 +5,7 @@
 
 <script>
 export default {
-  name: 'Navbar',
- 
+  name: 'Footer',
   }
 
 </script>

@@ -1,40 +1,36 @@
 <template>
   <div id="app">
    <Navbar />
+   <Carousel />
    <Jumbotron />
+   <Footer />
+   
   </div>
 </template>
 <script>
 import Navbar from "./components/Navbar.vue";
+import Carousel from "./components/Carousel.vue"
 import Jumbotron from "./components/Jumbotron.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Navbar,
+    Carousel,
     Jumbotron,
+    Footer, 
   }
 };
 </script>
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color:  #031472;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+  color:#b4351c;
+  font-size: 30px;
 }
 </style>
