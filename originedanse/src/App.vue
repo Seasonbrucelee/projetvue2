@@ -3,7 +3,9 @@
    <Navbar />
    <Carousel />
    <Jumbotron />
+   <Multimedias />
    <Footer />
+   <Icones />
    
   </div>
 </template>
@@ -11,7 +13,9 @@
 import Navbar from "./components/Navbar.vue";
 import Carousel from "./components/Carousel.vue"
 import Jumbotron from "./components/Jumbotron.vue";
+import Multimedias from "./components/Multimedias.vue";
 import Footer from "./components/Footer.vue";
+import Icones from "./components/Icones.vue";
 
 export default {
   name: "App",
@@ -19,7 +23,9 @@ export default {
     Navbar,
     Carousel,
     Jumbotron,
+    Multimedias,
     Footer, 
+    Icones,
   }
 };
 </script>

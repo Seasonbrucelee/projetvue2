@@ -1,7 +1,11 @@
 html{
     background-color: #031472;
+    font-family:'Ubuntu', sans-serif;
 }
 
 body{
     background-color: #031472;
+}
+p{
+    font-size: small;
 }
