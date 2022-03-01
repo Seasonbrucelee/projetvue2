@@ -39,15 +39,7 @@
   </div>
 </nav>
   </div>
-  <div>
 
- </div> 
-
-  <li class="nav-item">
-          <a class="nav-link" style= "color:#b4351c;"  href="#">Formations</a>
-        </li>
-      </ul>
-  </div>
 </template>
 
 <script>
