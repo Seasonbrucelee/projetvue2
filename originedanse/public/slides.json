@@ -1,0 +1,33 @@
+{   
+    "time": 
+    {   "updated": "Mar 3, 2022 11:36:00 UTC", 
+        "updatedISO": "2022-03-03T11:36:00+00:00", 
+        "updateduk": "Mar 3, 2022 at 11:36 GMT" 
+    }, 
+    "disclaimer": "This data was produced from slides", 
+    "chartName": "Slides", 
+    "slides": 
+    [
+        {
+            "id":1,
+            "image":"eyezmiho.jpg"
+        },
+        {
+            "id":2,
+            "image":"wrestlerillest.jpg"
+        },
+        {
+            "id":3,
+            "image":"nach-krump-2.jpg"
+        },
+        {
+            "id":4,
+            "image":"img-7645.jpg"
+        },
+        {
+            "id":5,
+            "image":"wrestlerillest.jpg"
+        }
+    ]
+
+}

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
    <Navbar />
-   <Carousel />
-   <Jumbotron />
-   <Multimedias />
+
+   <router-view/>
+   
    <Footer />
    <Icones />
    
@@ -11,9 +11,6 @@
 </template>
 <script>
 import Navbar from "./components/Navbar.vue";
-import Carousel from "./components/Carousel.vue"
-import Jumbotron from "./components/Jumbotron.vue";
-import Multimedias from "./components/Multimedias.vue";
 import Footer from "./components/Footer.vue";
 import Icones from "./components/Icones.vue";
 
@@ -21,9 +18,6 @@ export default {
   name: "App",
   components: {
     Navbar,
-    Carousel,
-    Jumbotron,
-    Multimedias,
     Footer, 
     Icones,
   }
@@ -37,6 +31,10 @@ export default {
   text-align: center;
   background-color:  #031472;
   color:#b4351c;
-  font-size: 30px;
+  font-size: 40px;
 }
+p{
+  color: #0c49df;
+  font-size: 30px
+};
 </style>

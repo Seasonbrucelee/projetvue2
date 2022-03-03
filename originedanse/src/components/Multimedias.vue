@@ -1,8 +1,11 @@
 <template>
-    <div class="embed-responsive embed-responsive-16by9">
-      <div><h2>Battle Krumpfest-Demo Speaker WRESTLER</h2></div>
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GCQlfDdf68g" >Battle Krumpfest-Demo Speaker WRESTLER</iframe>
-</div>
+  <div>
+    <h2>Battle Krumpfest-Demo Speaker WRESTLER</h2>
+  <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/GCQlfDdf68g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+
 </template>
 <script>
 export default {
@@ -10,6 +13,5 @@ export default {
 };
 </script>
 <style scoped>
-
 </style>>
     
